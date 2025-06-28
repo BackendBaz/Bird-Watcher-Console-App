@@ -13,5 +13,6 @@ You have six tasks, all dealing with the numbers of birds that visited your gard
 2. Check how many birds visited today
 3. Increment today's count
 4. Check if there was a day with no visiting birds
+   - It returns `true` if there was a day at which **zero birds visited the garden**; otherwise, returns `false`.
 5. Calculate the number of visiting birds for the first number of days
 6. Calculate the number of busy days

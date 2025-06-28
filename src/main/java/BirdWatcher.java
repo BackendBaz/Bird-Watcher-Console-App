@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class BirdWatcher {
 
     private final int[] birdsPerDay;
@@ -19,7 +21,7 @@ class BirdWatcher {
     }
 
     public boolean hasDayWithoutBirds() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.hasDayWithoutBirds() method");
+        return Arrays.stream(birdsPerDay).anyMatch(day -> day == 0);
     }
 
     public int getCountForFirstDays(int numberOfDays) {
