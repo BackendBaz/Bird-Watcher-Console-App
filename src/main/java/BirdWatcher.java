@@ -1,5 +1,5 @@
-
 class BirdWatcher {
+
     private final int[] birdsPerDay;
 
     public BirdWatcher(int[] birdsPerDay) {
@@ -7,7 +7,7 @@ class BirdWatcher {
     }
 
     public int[] getLastWeek() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.getLastWeek() method");
+        return birdsPerDay;
     }
 
     public int getToday() {
@@ -29,4 +29,5 @@ class BirdWatcher {
     public int getBusyDays() {
         throw new UnsupportedOperationException("Please implement the BirdWatcher.getBusyDays() method");
     }
+
 }
