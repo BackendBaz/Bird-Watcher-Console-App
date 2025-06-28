@@ -17,3 +17,4 @@ You have six tasks, all dealing with the numbers of birds that visited your gard
 5. Calculate the number of visiting birds for the first number of days
    - It returns the number of birds that have visited your garden from the start of the week, but limit the count to the specified number of days from the beginning of the week.
 6. Calculate the number of busy days
+   - Some days are busier than others. **A busy day is one where five or more birds** have visited your garden.
